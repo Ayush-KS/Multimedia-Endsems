@@ -5,7 +5,7 @@
 html {
     display:flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color:lightcyan
 }
 header {
     width: 100%;
@@ -25,10 +25,9 @@ h1, h4 {
 .list {
     height:400px;
     width:250px;
-    background-color: blueviolet;
+    background-color: aqua;
     margin:10px;
     padding:5px;
-    color: beige;
 }
 
 footer {
@@ -48,14 +47,19 @@ footer {
     margin-top: 20px;
 }
 
-#movies {
-    list-style-type: square;
+
+#ran1 {
+    list-style-type: lower-alpha;
 }
 
-#songs {
-    list-style-type: circle;
+#ran2  {
+    list-style-type: upper-alpha;
 }
 
-#podcasts {
-    list-style-type: lower-greek;
+#ran3 {
+    list-style-type: lower-roman;
+}
+
+#ran4  {
+    list-style-type: upper-roman;
 }
